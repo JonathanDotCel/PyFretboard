@@ -4,8 +4,19 @@
 # PyFreboard
 Generate + save guitar fretboard scale diagrams using MatplotLib. Supports transposition, harmonic minor, bluesy blue notes, pentatonic/diatonic options, etc
 
-## How run?
-c:\wherever\python.exe fretboard.py
+# How run?
+Download the repo, then run the `fretbord.exe` in the `dist` folder
+Mac/Linux peeps, you'll have to build/run it through python
+
+## How build?
+### Windows
+`c:\wherever\python.exe fretboard.py`
+or
+`pip install pyinstaller`
+`pyinstaller --onefile fretboard.py`
+### mac / linux
+`chmod +x fretboard.py`
+`py fretboard.py`
 
 ## What do?
 `Up` and `Down` to transpose a semitone either way
